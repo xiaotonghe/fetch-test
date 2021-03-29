@@ -32,7 +32,6 @@ class WebControl():
         return elem
 
     def get_weighing(self):
-        weighs = []
         elems = self.driver.find_elements_by_tag_name("li")
         weighs = [elem.text for elem in elems]
         print("weighing list: \n", weighs)
