@@ -1,0 +1,6 @@
+.vscode
+/__pycache__
+/fetch-venv
+geckodriver.log
+.DS_Store
+.pytest_cache
